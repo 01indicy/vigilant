@@ -1,6 +1,7 @@
 {
     "name": "indiciez/vigilant",
     "description": "backend library",
+    "minimum-stability": "beta",
     "type": "library",
     "autoload": {
         "psr-4": {
