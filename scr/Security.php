@@ -13,6 +13,6 @@
         }
 
         public static function encryptPassword(string $password): string {
-            return hash("sha256",$password);
+            return hash("sha512",$password);
         }
     }
