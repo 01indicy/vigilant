@@ -9,3 +9,8 @@
 
     $DB = new DBConfig();
     print_r($DB->createConnection());
+
+    echo "<br><br>";
+
+    $Secure = new \Indiciez\Vigilant\Security($DB->createConnection());
+    echo "Password :: ". $Secure::encryptPassword("Justin");
