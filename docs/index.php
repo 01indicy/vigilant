@@ -12,5 +12,6 @@
 
     echo "<br><br>";
 
+    # hash sha256
     $Secure = new \Indiciez\Vigilant\Security($DB->createConnection());
     echo "Password :: ". $Secure::encryptPassword("Justin");
