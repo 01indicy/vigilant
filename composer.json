@@ -1,0 +1,19 @@
+{
+    "name": "indiciez/vigilant",
+    "description": "backend library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Indiciez\\Vigilant\\": "scr/"
+        }
+    },
+    "authors": [
+        {
+            "name": "indiciez",
+            "email": "justinmajura@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-mysqli": "*"
+    }
+}
